@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Genre Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Music Genre Classifier</h1>
+
+<select id="tempo">
+    <option value="">Select Tempo</option>
+    <option value="slow">Slow</option>
+    <option value="medium">Medium</option>
+    <option value="fast">Fast</option>
+</select>
+
+<br><br>
+
+<select id="energy">
+    <option value="">Select Energy</option>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+</select>
+
+<br><br>
+
+<button onclick="predictGenre()">Predict Genre</button>
+
+<h2 id="result"></h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
